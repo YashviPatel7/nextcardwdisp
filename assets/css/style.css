@@ -1,0 +1,77 @@
+:root{
+    --white :#FFFFFF;
+    --fs-sm : 14px;
+    --fs-xl :24px;
+    --fs-xxl :30px;
+    --fs-xxxl :36px;
+    --fw-500 : 500;
+    --fw-700 : 700;
+    --grey-blue-30 :#26334D;
+    --grey-blue-60 :#6B7A99;
+
+}
+*{
+    font-family: sans-serif;
+}
+/* helper class */
+.d-flex{
+    display: flex;
+}
+.card-head{
+    justify-content: space-between;
+}
+.card{
+    padding: 30px;
+}
+.card{
+    width: 500px;
+    height: 500px;
+    background-color: #1A2233;
+    border-radius: 10px;
+}
+.card-rounded-btn{
+    width: 60px;
+    height: 60px;
+    background-color: var(--white);
+    border-radius: 100px;
+    border: 0px;
+}
+.btn-next{
+    width: 60px;
+    height: 60px;
+    background-color: var(--grey-blue-30);
+    border-radius: 100px;
+    border: 0px;
+}
+.card-text{
+    color: var(--white);
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-700);
+}
+.card-content{
+    align-items: center;
+}
+.card-container-amount{
+    color: var(--white);
+    font-size: var(--fs-xxl);
+    font-weight: var(--fw-500);
+}
+.card-amount{
+    color: var(--white);
+    font-size: var(--fs-xxxl);
+    font-weight: var(--fw-500);
+    padding-left: 30px;
+}
+.card-container{
+    justify-content: space-between;
+}
+.card-container-text{
+    font-size: var(--fs-sm);
+    color: var(--grey-blue-60);
+    font-weight: var(--fw-700);
+}
+.horizontal-line{
+    border-bottom: 6px solid white;
+    height: 10px;
+    width: 45px;
+}
